@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+:root {
+	--primary-color: #2c2c2c;
+	--secondary-color: #909090;
+	--card-color: #f3f3f3;
+	--green-dot: #66fc75;
+	--font-color: rgb(225, 235, 244);
+}
+
+body {
+	font-family: "Geist", sans-serif;
+	height: 400vh;
+}
+
+.container {
+	padding: 0px 90px;
+}
+
+.Nav-bar {
+	height: 88px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Section-1 {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	font-weight: 600;
+}
+.Section-1 img {
+	width: 63px;
+	object-fit: contain;
+}
+
+.Section-1 p {
+	text-transform: uppercase;
+	color: var(--primary-color);
+	font-size: 27px;
+}
+
+.Section-2 {
+	padding: 0px 10px;
+}
+.List-container {
+	display: flex;
+	gap: 38px;
+	font-size: 20px;
+	color: var(--secondary-color);
+	font-weight: 280;
+}
+.Section-3 {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background-color: black;
+	color: white;
+	height: 54px;
+	padding: 0px 8px;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 280;
+}
+
+.green-dot {
+	width: 8px;
+	height: 8px;
+	background-color: var(--green-dot);
+	margin-left: 15px;
+	border-radius: 50%;
+}
+
+.arrow-box {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.arrow-box img {
+	width: 25px;
+}
+
+.Main-container {
+	background-image: url(https://cdn.prod.website-files.com/6784794885cc7b8dbfb185e2/6784958c2c4ad0bc028ac10a_hero-bg-v4.jpg);
+	padding: 30px 80px;
+	border-radius: 40px;
+	position: relative;
+	background-size: cover;
+	background-position: 80% 50%;
+}
+
+.layout {
+	position: absolute;
+	background-color: rgb(0, 0, 0, 0.45);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 40px;
+}
+
+.hero-content {
+	width: 480px;
+	display: grid;
+	gap: 25px;
+	position: relative;
+	z-index: 100;
+}
+.hero-content h1 {
+	color: var(--font-color);
+	text-transform: uppercase;
+	font-size: 70px;
+	line-height: 1.1;
+}
+
+.hero-content p {
+	color: var(--font-color);
+}
+
+.S3-border {
+	width: max-content;
+	border: 1px solid rgb(207, 217, 225);
+	margin-bottom: 25px;
+	padding: 0pc 10px;
+	background-color: transparent;
+}
+.S3-border p {
+	margin-left: 10px;
+}
+.hero-details {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.hero-details p {
+	font-size: 30px;
+}
+.hero-details p sup {
+	margin-left: 1px;
+}
+
+.hero-details span {
+	color: var(--font-color);
+	font-size: 15px;
+}
+
+.rating-container {
+	display: flex;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 10px 14px;
+	background-color: white;
+}
+
+.images-container {
+	display: flex;
+	align-items: center;
+	margin-right: -30px;
+	z-index: 100;
+}
+
+.images-container img {
+	width: 70px;
+	border: 2px solid aliceblue;
+	border-radius: 50%;
+}
+
+.image-1 {
+	transform: translateX(-15px);
+}
+
+.image-2 {
+	transform: translateX(-30px);
+}
+.image-3 {
+	transform: translateX(-45px);
+}
+
+.rating-details > p {
+	font-size: 16px;
+	font-weight: 500;
+	z-index: 100;
+}
+.stars {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	gap: 4px;
+}
+.stars svg {
+	color: rgb(228, 130, 26);
+	width: 19px;
+}
+.stars-details {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	gap: 5px;
+}
